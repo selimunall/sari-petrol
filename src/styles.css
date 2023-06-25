@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 body {
     font-family: Roboto,Helvetica Neue Light,Helvetica Neue,

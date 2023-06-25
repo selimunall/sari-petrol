@@ -1,9 +1,181 @@
-<div class="w-full h-[900px] bg-slate-300">
+<div class="w-full flex h-[900px] bg-[url('./assets/image/mainGif.gif')] bg-cover bg-center bg-">
     <div class="flex justify-center items-center flex-col">
-        <span class="text-lg mt-[404px] text-white">Hos Geldiniz</span>
-        <span class="text-[72px] mt-3 font-serif text-white">SARI PETROL</span>
-        <span class="text-lg flex text-center mx-[223px] text-white">Uzun yıllara dayanan deneyimimiz ve müşteri odaklı yaklaşımımızla petrol sektöründe öncü bir konumdayız. Enerji ihtiyaçlarınızı karşılamak ve işletmenizin büyümesine katkıda bulunmak için buradayız.</span>
+        <span class="md:text-lg md:mt-[404px] text-white text-sm mt-[327px]">Hos Geldiniz</span>
+        <span class="md:text-[72px] mt-3 font-serif text-white text-[42px] ">SARI PETROL</span>
+        <span class="md:text-lg flex text-center md:mx-[223px] text-white mx-2">Uzun yıllara dayanan deneyimimiz ve müşteri odaklı yaklaşımımızla petrol sektöründe öncü bir konumdayız. Enerji ihtiyaçlarınızı karşılamak ve işletmenizin büyümesine katkıda bulunmak için buradayız.</span>
         <button class="px-[72px] py-[18px] bg-[#D9271E] text-white mt-6">Fiyat Teklifi Al</button>
-
     </div>
+</div>
+ <div class="w-full  h-[120px] md:h-[120px] md:px-[120px] flex items-center  shadow-[0_8px_25px_0px_rgba(0,0,0,0.15)]">
+    <div class="w-full flex justify-center flex-wrap gap-5 p-4 md:gap-6 lg:gap-x-24 ">
+    <img src="../../assets/image/tupras.png" class="h-8 md:h-[42px]">
+    <img src="../../assets/image/socar.png" class="h-8 md:h-[42px]">
+    <img src="../../assets/image/bp.png" class="h-8 md:h-[42px]">
+    <img src="../../assets/image/opet.png" class="h-8 md:h-[42px]">
+    <img src="../../assets/image/petr.png" class="h-8 md:h-[42px]">
+    </div>
+</div>
+
+<div class="w-full h-full flex flex-col">
+    
+    <header class="flex w-full items-center md:mt-32 mt-14 flex-col">
+        <h1 class="md:text-[54px] text-[32px] font-bold font-serif ">Fiyat Teklifi Alın</h1>
+        <p class="md:text-base text-[13px] opacity-70 mx-4 mt-3 font-light md:max-w-3xl text-center">Özel fiyatlandırma ve özelleştirilmiş çözümler için bize ulaşın ve hızlıca fiyat teklifi alın. Müşteri odaklı hizmet anlayışımızla ihtiyaçlarınıza yönelik en uygun fiyatları sunmak için buradayız.</p>
+    </header>
+
+    <div class="w-full items-center flex justify-center mt-8 md:mt-14">
+        <form >
+            <div class="md:w-[540px] flex flex-col  mx-[16px] md:px-6 p-3 md:py-[37px] shadow-[0_4px_15px_0px_rgba(0,0,0,0.15)]">
+                <label for="firmaAdi" class="mt-4 text-[14px] md:text-lg  opacity-75">Firma Adı</label>
+                <input type="text" id="firmaAdi" class="w-full p-2 border">
+                <label for="vergiNo" class="mt-4 text-[14px] md:text-lg opacity-75">Vergi Numarası</label>
+                <input type="text" id="vergiNo" class="w-full p-2 border">
+                <label for="yetkiliAdi" class="mt-4 text-[14px] md:text-lg opacity-75">Yetkili Adı Soyadı</label>
+                <input type="text" id="yetkiliAdi" class="w-full p-2 border">
+                <label for="telefon" class="mt-4 text-[14px] md:text-lg opacity-75">Telefon</label>
+                <input type="text" id="telefon" class="w-full p-2 border">
+                <div class="md:flex md:gap-2 md:mt-4">
+                    <div class="flex-1">
+                        <label for="urunCinsi" class="mt-4 text-[14px] md:text-lg opacity-75">Ürün Cinsi</label>
+                        <input type="text" id="urunCinsi" class="w-full p-2 border">
+                    </div>
+                    <div class="flex-1">
+                        <label for="aylikOrtalama" class="mt-4 text-[14px] md:text-lg opacity-75">Aylık Ortalama Tüketim</label>
+                        <input type="text" id="aylikOrtalama" class="w-full p-2 border">
+                    </div>
+                </div>
+                <label for="teslimEdilecek" class="mt-4 text-[14px] md:text-lg opacity-75">Teslim Edilecek Bölge</label>
+                <input type="text" id="teslimEdilecek" class="w-full p-2 border">
+                <label for="odemeYontemi" class="mt-4 text-[14px] md:text-lg opacity-75">Ödeme Yöntemi</label>
+                <input type="text" id="odemeYontemi" class="w-full p-2 border">
+                <label for="mesaj" class="mt-4 text-[14px] md:text-lg  opacity-75">Mesajınız</label>
+                <textarea name="mesaj" id="mesaj" class="w-full min-h-[80px] border p-2 resize-none"></textarea>
+                <button class="w-full mt-2 h-14 text-[14px] md:text-lg text-white bg-[#D9271E]">Fiyat Teklifi Alın</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="w-full  p-5 relative mt-10 md:flex md:flex-row-reverse md:items-center md:justify-center overflow-hidden">
+    <div class="md:flex md:flex-col">
+        <img src="../../assets/image/rectangle-2.png" class="md:relative absolute z-10 md:top-0 md:right-0">
+        <img src="../../assets/image/rectangle-1.png" class="md:relative absolute -right-2 md:-right-24 -top-3 md:-top-12 md:w-[300px]">
+    </div>
+    <div class="mt-[270px]  md:mt-0 md:w-1/3">
+        <span class="text-2xl space-x-0 font-semibold font-serif md:text-4xl flex justify-center md:justify-start">SARI PETROL HAKKINDA</span>
+        <p class="mt-3 text-[13px] opacity-70 leading-6 md:max-w-xl md:text-base text-center md:text-start">Sarı Petrol olarak, müşterilerimize en yüksek kalitede petrol ürünleri sunmayı hedefliyoruz. Güvenilir tedarikçilerimizle işbirliği yaparak, enerji ihtiyaçlarınıza çözüm sunan çeşitli petrol türleri ve sınıflarını temin ediyoruz. Hem benzin istasyonlarına hem de endüstriyel tesislere yönelik özelleştirilmiş çözümler sunarak, geniş bir müşteri kitlesini destekliyoruz.</p>
+    </div>
+</div>
+
+<div class="flex w-full">
+    <div class="flex items-center w-full justify-center flex-col md:mx-44 p-4 ">
+        <span class="md:text-4xl text-2xl font-semibold font-serif text-center">SEKTÖRÜNDE ÖNCÜ KURULUŞ</span>
+        <p class="mt-3 text-[13px] opacity-70 leading-6 md:max-w-7xl md:text-base text-center md:text-center">Sarı Petrol, petrol alanında olduğu kadar diğer sektörlerde de öncü bir kuruluş olarak müşterilere yenilikçi ve güvenilir çözümler sunar. Kalite, güvenilirlik ve müşteri memnuniyeti odaklı çalışmalarımızla geniş bir yelpazede faaliyet göstermekteyiz.</p>
+    </div>
+</div>
+<div class="flex flex-col gap-4 items-center md:mx-12 md:flex-row md:flex-wrap justify-center md:mt-11">
+    <div class="relative mx-4 hover:scale-110 transition-all duration-300">
+        <div class="flex flex-col font-semibold absolute z-10 top-2 left-5 text-white">
+            <span class="text-xl">Petrol Ofisi</span>
+            <span class="flex items-center text-sm"><img src="../../assets/image/location.svg" class="-ml-1 flex"> Bilecik/Söğüt</span>
+        </div>
+        <div class="">
+            <img src="../../assets/image/img-1.png" >
+        </div>
+    </div>
+    <div class="relative mx-4 hover:scale-110 transition-all duration-300">
+        <div class="flex flex-col font-semibold absolute z-10 top-2 left-5 text-white">
+            <span class="text-xl">Emlak</span>
+            <span class="flex items-center text-sm"><img src="../../assets/image/location.svg" class="-ml-1 flex"> Bilecik/Söğüt</span>
+        </div>
+        <div class="">
+            <img src="../../assets/image/img-2.png" alt="">
+        </div>
+    </div>
+    <div class="relative mx-4 hover:scale-110 transition-all duration-300 ">
+        <div class="flex flex-col font-semibold absolute z-10 top-2 left-5 text-white">
+            <span class="text-xl">Toptan Akaryakıt</span>
+            <span class="flex items-center text-sm"><img src="../../assets/image/location.svg" class="-ml-1 flex"> Bilecik/Söğüt</span>
+        </div>
+        <div class="">
+            <img src="../../assets/image/img-1.png" alt="">
+        </div>
+    </div>
+    <div class="relative mx-4 hover:scale-110 transition-all duration-300">
+        <div class="flex flex-col font-semibold absolute z-10 top-2 left-5 text-white">
+            <span class="text-xl">Perakende Satış</span>
+            <span class="flex items-center text-sm"><img src="../../assets/image/location.svg" class="-ml-1 flex"> Bilecik/Söğüt</span>
+        </div>
+        <div class="">
+            <img src="../../assets/image/img-3.png" alt="">
+        </div>
+    </div>
+    <div class="relative mx-4 hover:scale-110 transition-all duration-300">
+        <div class="flex flex-col font-semibold absolute z-10 top-2 left-5 text-white">
+            <span class="text-xl">Taşıt Tanıma</span>
+            <span class="flex items-center text-sm"><img src="../../assets/image/location.svg" class="-ml-1 flex"> Bilecik/Söğüt</span>
+        </div>
+        <div class="">
+            <img src="../../assets/image/img-1.png" alt="">
+        </div>
+    </div>
+    <div class="relative mx-4 hover:scale-110 transition-all duration-300">
+        <div class="flex flex-col font-semibold absolute z-10 top-2 left-5 text-white">
+            <span class="text-xl">Ticari Araç Kiralama</span>
+            <span class="flex items-center text-sm"><img src="../../assets/image/location.svg" class="-ml-1 flex"> Bilecik/Söğüt</span>
+        </div>
+        <div class="">
+            <img src="../../assets/image/img-4.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="w-full flex bg-[#041A3A] flex-col pt-20 pb-14 text-white mt-[90px] md:mt-[120px] md:flex-row justify-center items-center">
+    <img src="../../assets/image/green.png" class="max-[490px] md:mr-12">
+    <div class="p-4 ml-3 mt-3">
+        <header class="text-2xl font-serif">HİZMETLERİMİZ</header>
+        <ul class='list-disc mt-2 max-w-[600px]'>
+            <li>Toptan Petrol Tedariki: Güvenilir ve sürekli bir petrol tedarikçisi olarak, işletmenizin ihtiyaç duyduğu miktarda petrolü zamanında sağlıyoruz. Esneklik ve uygun fiyatlarla size özelleştirilmiş çözümler sunarak, enerji maliyetlerinizi optimize ediyoruz.</li>
+            <li class="my-2">Kalite Kontrol ve Güvence: Müşteri memnuniyeti ve güvenli kullanım önceliğimizdir. Tedarik ettiğimiz petrol ürünleri, sıkı kalite kontrol süreçlerinden geçer ve uluslararası standartlara uygunluk sağlar. Bu sayede, yüksek performanslı ve güvenilir ürünler sunarız.</li>
+            <li>Hızlı ve Güvenilir Lojistik: Siparişlerinizin zamanında teslim edilmesi için etkili lojistik çözümlerimizle çalışırız. Esnek teslimat seçenekleri sunarak, işletmenizin gereksinimlerine uygun teslimat planları oluştururuz. Siz sadece enerji ihtiyacınızı karşılamakla kalmaz, aynı zamanda kesintisiz iş sürekliliği sağlamış olursunuz.</li>
+        </ul>
+        <button class="flex w-full p-4 bg-[#D9271E] text-center items-center justify-center mt-12">Tüm Hizmetleri Görüntüle</button>
+    </div>
+</div>
+
+<div class="px-4 mt-12 md:flex md:items-center md:justify-center md:flex-row-reverse ">
+    <img src="../../assets/image/man.png" alt="">
+    <div class="mt-6 md:max-w-[600px] md:mr-8">
+        <header class="text-2xl font-serif font-semibold">NEDEN SARI PETROL?</header>
+        <div class="flex mt-8">
+            <div class="w-11 h-11 min-w-[44px] flex items-center justify-center bg-[#D9271E] p-1">
+                <img src="../../assets/image/man.svg">
+            </div>
+            <p class="ml-2"><b>Tecrübeli ve Uzman Ekip:</b> Alanında deneyimli ekip arkadaşlarımız, enerji sektöründeki trendleri yakından takip eder ve size en güncel çözümleri sunmak için sürekli olarak kendilerini geliştirir.</p>
+        </div>
+        <div class="flex mt-10">
+            <div class="w-11 h-11 min-w-[44px] flex items-center justify-center bg-[#D9271E] p-1">
+                <img src="../../assets/image/wallet.svg">
+            </div>
+            <p class="ml-2"><b>Rekabetçi Fiyatlar:</b> Sarı Petrol olarak, müşterilerimize rekabetçi fiyatlar sunarak, işletmenizin maliyetlerini düşürmeye yardımcı oluruz. Kalite ve uygunluk standartlarından ödün vermeden, ekonomik çözümler sunarız.</p>
+        </div>
+        <div class="flex mt-10">
+            <div class="w-11 h-11 min-w-[44px] flex items-center justify-center bg-[#D9271E] p-1">
+                <img src="../../assets/image/smile.svg">
+            </div>
+            <p class="ml-2"><b>Müşteri Memnuniyeti:</b> Müşteri odaklı hizmet anlayışımızla, size en iyi deneyimi sunmayı hedefliyoruz. Size özelleştirilmiş çözümler sunarak ihtiyaçlarınıza en uygun şekilde yanıt veririz.</p>
+        </div>
+    </div>
+</div>
+
+<div class="items-center flex justify-center flex-col px-6 mt-8 md:mt-16 mb-14">
+    <span class="font-serif text-2xl">BİZİMLE İLETİŞİME GEÇİN</span>
+    <p class="md:px-[140px] text-center mt-8 md:mt-12 ">Enerji ihtiyaçlarınızı karşılamak ve petrol tedarik çözümleri hakkında daha fazla bilgi almak için gönül rahatlığıyla bizimle iletişime geçebilirsiniz. Uzman ekibimiz, sizin için en uygun seçenekleri sunmak amacıyla burada hazır bulunmakta ve size yardımcı olmaktan memnuniyet duymaktadır. <br><br>
+
+        Sarı Petrol, sektördeki güvenilirliğiyle bilinen öncü bir petrol tedarikçisidir. Müşterilerimize sağladığımız kaliteli hizmet ve uzmanlığımızla, enerji sektöründeki ihtiyaçlarınızı karşılamak için önemli bir çözüm ortağı olmaktan gurur duyuyoruz. <br><br>
+        
+        Bize ulaşın ve enerji taleplerinizin karşılanması için en iyi hizmeti alın. Eksiksiz çözümler sunmak ve sizin için en uygun stratejileri belirlemek amacıyla deneyimli ekibimiz sizleri beklemektedir. <br><br>
+        
+        Sarı Petrol, sizin güvenilir ve profesyonel petrol tedarikçinizdir.</p>
+    <button class="lg:hidden flex w-full bg-[#D9271E] p-4 mt-4 text-center text-white items-center justify-center font-semibold">Bizimle İletişime Geçin</button>
 </div>

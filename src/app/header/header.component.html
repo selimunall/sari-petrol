@@ -1,14 +1,27 @@
-<header class="bg-white h-[72px] w-full flex items-center justify-between">
-    <div class="mx-[120px] w-full justify-between flex items-center">
-        <button class="w-[120px] h-[54px] bg-[#BFCADA] ">Logo</button>
-        <div>
-            <ul class="flex gap-6 leading-[17px]">
-                <li>Genel Bilgiler</li>
-                <li>Fiyat Listesi</li>
-                <li>Toptan</li>
-                <li>Bize Ulasin</li>
-            </ul>
+<header class="bg-white h-[62px] md:h-[72px] md:items-center md:justify-center w-full flex items-center justify-between shadow-[0_8px_25px_0px_rgba(0,0,0,0.15)]">
+    <div class="px-[16px] py-[10px] w-full md:w-[88%] justify-between flex items-center">
+        <span><img src="../../assets/image/logo1.svg" class="items-center w-[93px] h-[42px] md:w-[120px] md:h-[54px]"></span>
+        <ul class="md:flex gap-[1.5rem] lg:gap-20 hidden">
+        <li class="text-sm font-bold md:font-medium"><a href="#">Ana Sayfa</a></li>
+        <li class="text-sm font-bold md:font-medium"><a href="#">Genel Bilgiler</a></li>
+        <li class="text-sm font-bold md:font-medium"><a href="#">Fiyat Listesi</a></li>
+        <li class="text-sm font-bold md:font-medium"><a href="#">Toptan</a></li>
+        <li class="text-sm font-bold md:font-medium"><a href="#">Bize Ulaşın</a></li>
+        </ul>
+        <div class="md:flex hidden">
+          <button  class="px-7 py-4 bg-[#D9271E] text-white">Fiyat Teklifi</button>
         </div>
-        <button class="w-[162px] h-[54px] bg-[#D9271E]">Fiyat Teklifi</button>
+        <div class="md:hidden">
+          <button (click)="active()"><img src="../../assets/image/hamburger-svg.svg"></button>
+        </div>
     </div>
 </header>
+<div [ngClass]="{hidden: activeHamburger}" class="transition-all w-full bg-white absolute top-[62px]">
+    <ul class="text-center flex items-center justify-center flex-col gap-6">
+      <li class="text-sm font-bold mt-2">Ana Sayfa</li>
+      <li class="text-sm font-bold">Genel Bilgiler</li>
+      <li class="text-sm font-bold">Fiyat Listesi</li>
+      <li class="text-sm font-bold">Toptan</li>
+      <li class="text-sm font-bold mb-2">Bize Ulaşın</li>
+    </ul>
+</div>
